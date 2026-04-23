@@ -23,7 +23,7 @@ services:
 
     # ── Go SPIFFE Sidecar ──────────────────────────────────────────
     production-spiffe-sidecar:
-        build: ../../spiffe-sidecar
+        build: ./spiffe-sidecar
         container_name: production-spiffe-sidecar
         pid: "service:spire-agent"
         environment:
