@@ -38,3 +38,6 @@ app/writable/debugbar/
 # Vault AppRole credentials — distributed at runtime, never committed
 docker/vault-pki/creds/*
 !docker/vault-pki/creds/.gitkeep
+
+# Vault-PKI AppRole creds (role_id/secret_id) — secrets, never commit
+docker/vault-pki/creds/
