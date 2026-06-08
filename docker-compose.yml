@@ -66,8 +66,6 @@ services:
             - PHP_UPLOAD_MAX_FILESIZE=2048M
             # ── SPIFFE / LSVID ──
             - SPIFFE_ID=spiffe://zt.local/production-service
-            - SPIFFE_SHM_DIR=/certs
-            - LSVID_REQUIRED=0
         volumes:
             - './app:/app'
             # Bind the host's packages/ tree so vendor/jie80219/php-lsvid
